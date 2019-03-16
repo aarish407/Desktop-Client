@@ -10,6 +10,13 @@ import sys
 class detector:
 
     def __init__(self,algorithm='haar'):
+        '''
+        Main constructor.
+
+        Parameters:
+        arg1 (String): Algorithm selection, default is 'haar'.
+                       Possible selections :-
+        '''
         self.algorithm = algorithm
 
     def get_positions(self,img):
