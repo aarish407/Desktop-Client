@@ -7,6 +7,9 @@
 import cv2
 import sys
 
+path_img = sys.argv[0]
+path_frontfacecascade = "haarcascade_frontalface_default.xml"
+
 
 
 # for each face you found
